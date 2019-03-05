@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background: rgb(255, 255, 255);
+    line-height: 85px; // requierd to center nav links horizontally and make <a> tags full height..
+    position: fixed;
+    top: 0px;
+    width: 100%;
+
+    img.logo{
+        width: 185px;
+        height: auto;
+        margin-left: 85px;
+        padding: 16px 0;
+    }
+
+    nav {
+        margin-right: 85px;
+        
+        ul {
+            display: flex;
+
+            li{
+                // display: inline-block;
+                margin-left: 25px;
+                display: inline-block;
+
+                a {
+                    display: block;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
