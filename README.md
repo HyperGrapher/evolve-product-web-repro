@@ -4,6 +4,7 @@ Reproduction of an dribble post.
 
 Development environment: parcel.js
 
+Here's the dribble [original post](https://dribbble.com/shots/4640879-The-HoneyPot-Home-Page-Design-Animation)
 
 Orjinal design: 
-<img src="https://cdn.dribbble.com/users/501822/screenshots/4640879/dribbble.gif" width="400" height="300">
+![alt text](https://cdn.dribbble.com/users/501822/screenshots/4640879/dribbble.gif)
