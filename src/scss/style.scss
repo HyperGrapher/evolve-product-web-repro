@@ -3,32 +3,7 @@
 
 @import 'reset';
 @import 'navbar';
-
-body {
-    font-family: 'Montserrat', sans-serif;
-    height: 200vh;
-    overflow-x: hidden;
-    width: 100vw; // fixes middle point offset error on signature section
-
-}
-
-ul {
-    list-style: none;
-
-    a {
-        text-decoration: none;
-        color: black;
-    }
-}
-
-
-article h3 {
-    font-family: 'Playfair+Display';
-    font-size: 1.45em;
-    font-weight: 400;
-}
-
-
+@import 'general';
 
 
 .grid-top {
@@ -51,12 +26,14 @@ article h3 {
     .top-left {
         background: #e95353;
         width: 50vw;
+        overflow: hidden;
 
     }
 
     .top-right {
         background: #21ff04d8;
         width: 50vw;
+        overflow: hidden;
 
     }
 }

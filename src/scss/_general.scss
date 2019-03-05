@@ -1,0 +1,26 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 200vh;
+    overflow-x: hidden;
+    width: 100vw; // fixes middle point offset error on signature section
+
+}
+
+ul {
+    list-style: none;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+
+article h3 {
+    font-family: 'Playfair+Display';
+    font-size: 1.45em;
+    font-weight: 400;
+}
+
+
+

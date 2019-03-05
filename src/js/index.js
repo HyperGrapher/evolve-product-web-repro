@@ -19,3 +19,18 @@ function fixDivHeight(){
     var imgHeight = document.getElementById("topgrid").offsetHeight;
     document.getElementById("sign").style.marginTop = (imgHeight + 85) + 'px';
 }
+
+
+// get scroll position and use it to scale carousel imgs
+window.addEventListener("scroll", function (event) {
+    var scroll = this.scrollY;
+    var scrollClamp = scroll * 0.00050
+    console.log(scrollClamp + 1)
+
+    // document.getElementById("a").style.transform = (`translateY(${(scrollClamp * -1) * 100}px)`);
+    // document.getElementById("b").style.transform = (`translateY(${(scrollClamp * -1) * 100}px)`);
+
+    document.getElementById("a").style.transform = (`scale(${scrollClamp + 1})`);
+    document.getElementById("b").style.transform = (`scale(${scrollClamp + 1})`);
+
+});
